@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+.env
+
+# Dataset (Don't upload to GitHub)
+dataset/
+# Trained Model
+model/*.h5
+
+# IDE Files
+.idea/
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Ignore ZIP files
+static/uploads/archive.zip
+*.zip
